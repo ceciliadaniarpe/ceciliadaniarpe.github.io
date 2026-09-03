@@ -68,3 +68,9 @@ footer{border-top:1px solid var(--line);padding:26px 20px;color:var(--muted)}
   background-color: #333;
   color: white;
 }
+
+.working-title {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 0.9em;
+}
