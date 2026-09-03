@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cecilia Daniar Pè | University of Zurich</title>
+
+  <meta name="description" content="Cecilia Daniar Pè is a PhD student at the University of Zurich working on economic sociology, education, and labour market inequalities." />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #ffffff;
+      color: #222;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+    }
+
+    a {
+      color: #4a8f6a;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* optional: make emphasized names/keywords consistent with green theme */
+    strong {
+      color: #4a8f6a;
+      font-weight: 600;
+    }
+
+    .hero {
+      display: flex;
+      align-items: flex-start;
+      gap: 2.5rem;
+      max-width: 1050px;
+      margin: 0 auto;
+      padding: 2.25rem 1rem;
+    }
+
+    .hero .avatar {
+      width: 240px;
+      max-width: 42vw;
+      border-radius: 14px;
+      flex: 0 0 auto;
+      object-fit: cover;
+    }
+
+    .hero .content {
+      flex: 1 1 auto;
+      min-width: 0;
+      max-width: 600px;
+    }
+
+    .hero h1 {
+      margin: 0 0 .35rem 0;
+      font-weight: 600;
+      letter-spacing: .2px;
+    }
+
+    .subtitle {
+      margin: 0 0 1.5rem 0;
+      color: #555;
+      line-height: 1.45;
+    }
+
+    .content p {
+      margin: 0 0 1.1rem 0;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 720px) {
+      .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .hero .content {
+        width: 100%;
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav class="nav" aria-label="Primary">
+    <div class="brand">
+      <a href="index.html" style="text-decoration:none;color:inherit">Cecilia Daniar Pè</a>
+    </div>
+    <div class="tabs">
+      <a href="index.html" aria-current="page">About</a>
+      <a href="research.html">Research</a>
+      <a href="other.html">Other Projects</a>
+      <a href="cv.html">CV</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <section id="about" class="hero" aria-labelledby="about-title">
+
+    <img class="avatar" src="images/fiore1" alt="Portrait of Matilde Perotti" />
+
+    <div class="content">
+      <h1 id="about-title">Cecilia Daniar Pè</h1>
+
+      <p class="subtitle">
+        PhD Researcher<br />
+        <a href="https://sps.unibocconi.eu/" target="_blank" rel="noopener noreferrer">
+          Department of Sociology, University of Zurich
+        </a>
+      </p>
+
+      <p>
+        <strong>Ciao!</strong>
+        I am a PhD candidate at the Department of Sociology at the University of Zurich.
+       </p>
+
+       <p>
+        My research focuses on <strong>social inequality in education and the labor market</strong>.
+         I am particularly interested in how socioeconomic background shapes individuals' educational and career trajectories,
+  the opportunities they perceive as accessible, and broader patterns of social mobility.
+  In my work, I use both observational and experimental methods.
+        </p>
+
+      <p>
+        My research is funded by the
+        <strong>
+          <a href="https://www.urpp-equality.uzh.ch/en" target="_blank" rel="noopener noreferrer">
+           University Research Priority Program (URPP) "Equality of Opportunity"
+          </a>
+        </strong>, 
+         an interdisciplinary research program at the University of Zurich that examines the causes and consequences of
+  social and economic inequalities, as well as policies aimed at fostering greater equality of opportunity.
+      </p>
+
+     
+    </div>
+
+  </section>
+</main>
+
+<footer>
+  <div class="container small">
+    © <span id="y"></span> Cecilia Daniar Pè
+  </div>
+</footer>
+
+<script>
+  const d = new Date();
+  document.getElementById('y').textContent = d.getFullYear();
+</script>
+
+</body>
+</html>
