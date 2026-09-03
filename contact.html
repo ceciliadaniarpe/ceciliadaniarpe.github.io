@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Cecilia Daniar Pè</title>
+  <meta name="description" content="Cecilia Daniar Pè — Contact" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    body {
+      color: #222;
+    }
+
+    a {
+      color: #4a8f6a;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    main.container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      line-height: 1.6;
+    }
+
+    h1 {
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      margin-bottom: 0.8rem;
+    }
+
+    a.link {
+      color: #4a8f6a;
+      font-weight: 500;
+    }
+  </style>
+</head>
+
+<body>
+<header>
+  <nav class="nav" aria-label="Primary">
+    <div class="brand">
+      <a href="index.html" style="text-decoration:none;color:inherit">Cecilia Daniar Pè</a>
+    </div>
+    <div class="tabs">
+      <a href="index.html">About</a>
+      <a href="research.html">Research</a>
+      <a href="other.html">Other projects</a>
+      <a href="cv.html">CV</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <h1>Contact</h1>
+
+  <p><strong>Email:</strong> pe@soziologie.uzh.ch</p>
+  <p><strong>Office:</strong> Department of Sociology, University of Zurich
+Andreasstrasse 15 <br/>
+Room 5.50 <br/>
+8050 Zurich, Switzerland </p>
+
+  <p>
+    <a class="link" href="https://orcid.org/0009-0005-2463-9321" target="_blank" rel="noopener">
+      ORCID
+    </a>
+  </p>
+</main>
+
+  <p>
+    <a class="link" href="www.linkedin.com/in/ceciliadaniarpe" target="_blank" rel="noopener">
+      LinkedIn
+    </a>
+  </p>
+</main>
+
+<footer>
+  <div class="container small">
+    © <span id="y"></span> Cecilia Daniar Pè
+  </div>
+</footer>
+
+<script>
+  const d = new Date();
+  document.getElementById('y').textContent = d.getFullYear();
+</script>
+
+</body>
+</html>
