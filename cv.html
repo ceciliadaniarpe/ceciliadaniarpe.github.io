@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV — Cecilia Daniar Pè</title>
+  <meta name="description" content="Cecilia Daniar Pè — CV" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    body {
+      color: #222;
+    }
+
+    a {
+      color: #4a8f6a;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    main.container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      line-height: 1.6;
+      text-align: left;
+    }
+
+    h1 {
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+
+    a.download-link {
+      color: #4a8f6a;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a.download-link:hover {
+      text-decoration: underline;
+    }
+
+    object {
+      margin-top: 2rem;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+<header>
+  <nav class="nav" aria-label="Primary">
+    <div class="brand">
+      <a href="index.html" style="text-decoration:none;color:inherit">Cecilia Daniar Pè</a>
+    </div>
+    <div class="tabs">
+      <a href="index.html">About</a>
+      <a href="research.html">Research</a>
+      <a href="teaching.html">Other Projects</a>
+      <a href="cv.html" aria-current="page">CV</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <h1>Curriculum Vitae</h1>
+
+  <p>
+    You can view or download my full CV below. A brief academic bio and current projects are also listed on this site.
+  </p>
+
+  <p>
+    <a class="download-link" href="CV_Matilde_Perotti.pdf" download rel="noopener">
+      ➜ Download CV (PDF)
+    </a>
+  </p>
+
+  <object data="CV_Matilde_Perotti.pdf" type="application/pdf" width="100%" height="900">
+    <p>Preview unavailable. <a href="CV_Matilde_Perotti.pdf" download>Download the PDF</a>.</p>
+  </object>
+</main>
+
+<footer>
+  <div class="container small">
+    © <span id="y"></span> Cecilia Daniar Pè
+  </div>
+</footer>
+
+<script>
+  const d = new Date();
+  document.getElementById('y').textContent = d.getFullYear();
+</script>
+
+</body>
+</html>
